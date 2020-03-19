@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Midtermform</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        
+        <form midterm="form">
+            <div class="form-group">
+                <label>FIRST NAME :</label>
+                <input class="form-name" name="NAME" autofocus placeholder="John">
+            </div>
+            <div class="form-group">
+                <label>LAST NAME :</label>
+                <input class="form-last" name="LAST" placeholder="Doe">
+            </div>
+            <div class="form-group">
+            <label>EMAIL :</label>
+            <input class="form-email" email="EMAIL" placeholder="j@Doe.com">
+            </div>
+            <label>MAJOR :</label>
+            <div class="radio">
+             <label>    
+                <input type="radio" name="course" value="CS" checked>
+                CS
+             </label>
+            </div>
+            <div class="radio">
+                <label>    
+                   <input type="radio" name="course" value="CSCE" >
+                   CSCE
+                </label>
+            </div>
+            <div class="radio">
+                <label>    
+                   <input type="radio" name="course" value="MATH" >
+                   MATH
+                </label>
+            </div>
+            <button type="submit" class="btn btn-default">SUBMIT</button>
+            <button type="reset" class="btn btn-default">RESET</button>
+        </form>
+        
+        
+    </body>
+</html>
